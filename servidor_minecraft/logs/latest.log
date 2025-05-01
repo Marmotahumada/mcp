@@ -21,3 +21,6 @@
 [15:34:18] [Server thread/INFO]: marmotamafiosa joined the game
 [15:36:35] [Server thread/INFO]: [marmotamafiosa: Set own game mode to Creative Mode]
 [15:40:08] [Server thread/INFO]: Villager cmk['Villager'/82, l='ServerLevel[New World]', x=-30.93, y=64.00, z=122.32] died, message: 'Villager suffocated in a wall'
+[15:44:58] [Server thread/INFO]: marmotamafiosa has made the advancement [Isn't It Iron Pick]
+[15:46:18] [Server thread/ERROR]: Recoverable errors when loading section [-18, 3, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:bush -> using default)
+[16:00:28] [Server thread/INFO]: Villager cmk['Toolsmith'/194, l='ServerLevel[New World]', x=-128.68, y=77.00, z=148.42] died, message: 'Toolsmith was slain by Zombie'
