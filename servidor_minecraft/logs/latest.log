@@ -21,3 +21,8 @@
 [20:40:35] [Server thread/INFO]: marmotamafiosa joined the game
 [20:40:55] [Server thread/INFO]: marmotamafiosa was slain by Zombie
 [20:41:14] [Server thread/INFO]: [marmotamafiosa: Set own game mode to Creative Mode]
+[20:55:43] [Server thread/INFO]: [marmotamafiosa: Successfully filled 1 block(s)]
+[20:56:41] [Server thread/INFO]: [marmotamafiosa: Successfully filled 3 block(s)]
+[20:57:54] [Server thread/INFO]: [marmotamafiosa: Successfully filled 420 block(s)]
+[21:08:24] [Server thread/INFO]: Villager cmk['Villager'/707, l='ServerLevel[New World]', x=-186.63, y=64.00, z=54.91] died, message: 'Villager was slain by Zombie'
+[21:08:31] [Server thread/INFO]: Villager cmk['Farmer'/706, l='ServerLevel[New World]', x=-185.40, y=65.00, z=56.70] died, message: 'Farmer was slain by Zombie'
