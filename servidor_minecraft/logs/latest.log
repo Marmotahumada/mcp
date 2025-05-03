@@ -94,3 +94,20 @@
 [19:42:38] [Server thread/ERROR]: Recoverable errors when loading section [-5, 4, 26]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default)
 [19:46:06] [Server thread/INFO]: [marmotamafiosa: Set own game mode to Creative Mode]
 [19:47:10] [Server thread/INFO]: [marmotamafiosa: Set own game mode to Survival Mode]
+[20:05:23] [Server thread/INFO]: marmotamafiosa lost connection: Disconnected
+[20:05:23] [Server thread/INFO]: marmotamafiosa left the game
+[20:05:35] [Server thread/INFO]: marmotamafiosa[/127.27.51.197:38333] logged in with entity id 14073 at (-184.30196346672332, 99.0625, 153.51333368236774)
+[20:05:35] [Server thread/INFO]: marmotamafiosa joined the game
+[20:06:04] [Server thread/INFO]: marmotamafiosa lost connection: Disconnected
+[20:06:04] [Server thread/INFO]: marmotamafiosa left the game
+[20:07:34] [Server thread/INFO]: Stopping the server
+[20:07:34] [Server thread/INFO]: Stopping server
+[20:07:34] [Server thread/INFO]: Saving players
+[20:07:34] [Server thread/INFO]: Saving worlds
+[20:07:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20:07:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20:07:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20:07:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:07:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:07:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:07:34] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
