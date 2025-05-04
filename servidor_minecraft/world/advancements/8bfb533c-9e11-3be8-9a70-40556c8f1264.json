@@ -1257,6 +1257,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "enchanted_golden_apple": "2025-05-04 03:47:50 +0000",
       "cooked_beef": "2025-05-01 16:13:22 +0000"
     },
     "done": false
@@ -2441,6 +2442,12 @@
   "minecraft:story/enter_the_end": {
     "criteria": {
       "entered_end": "2025-05-04 03:43:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2025-05-04 03:47:14 +0000"
     },
     "done": true
   },
