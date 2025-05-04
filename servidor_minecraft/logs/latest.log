@@ -40,3 +40,8 @@ java.lang.IllegalStateException: Must be 64 pixels wide
 [03:26:38] [Server thread/INFO]: [marmotamafiosa: Set own game mode to Creative Mode]
 [03:28:33] [Server thread/INFO]: [marmotamafiosa: Teleported marmotamafiosa to 0.500000, -17.000000, -1239.164028]
 [03:28:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2373ms or 47 ticks behind
+[03:30:20] [Server thread/INFO]: [marmotamafiosa: Set own game mode to Survival Mode]
+[03:30:23] [Server thread/INFO]: marmotamafiosa fell from a high place
+[03:31:43] [Server thread/INFO]: [marmotamafiosa: Gave 1 [Command Block] to marmotamafiosa]
+[03:33:09] [Server thread/INFO]: [marmotamafiosa: Set own game mode to Creative Mode]
+[03:35:39] [Server thread/INFO]: [marmotamafiosa: Set own game mode to Survival Mode]
