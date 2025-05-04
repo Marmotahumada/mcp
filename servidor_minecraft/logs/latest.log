@@ -45,3 +45,15 @@ java.lang.IllegalStateException: Must be 64 pixels wide
 [03:31:43] [Server thread/INFO]: [marmotamafiosa: Gave 1 [Command Block] to marmotamafiosa]
 [03:33:09] [Server thread/INFO]: [marmotamafiosa: Set own game mode to Creative Mode]
 [03:35:39] [Server thread/INFO]: [marmotamafiosa: Set own game mode to Survival Mode]
+[03:39:42] [Server thread/INFO]: [marmotamafiosa: Set own game mode to Creative Mode]
+[03:41:18] [Server thread/INFO]: [marmotamafiosa: Gave 1 [Command Block] to marmotamafiosa]
+[03:43:16] [Server thread/INFO]: [marmotamafiosa: Set own game mode to Survival Mode]
+[03:43:40] [Server thread/INFO]: [marmotamafiosa: Teleported marmotamafiosa to -724.500000, -17.000000, -1238.500000]
+[03:43:54] [Server thread/INFO]: marmotamafiosa has made the advancement [The End?]
+[03:43:57] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[03:43:57] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
+[03:43:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3473ms or 69 ticks behind
+[03:44:52] [Server thread/INFO]: [marmotamafiosa: Set own game mode to Creative Mode]
+[03:46:40] [Server thread/INFO]: [marmotamafiosa: Set own game mode to Survival Mode]
+[03:47:08] [Server thread/INFO]: [marmotamafiosa: Set own game mode to Creative Mode]
+[03:47:34] [Server thread/INFO]: [marmotamafiosa: Set own game mode to Survival Mode]
