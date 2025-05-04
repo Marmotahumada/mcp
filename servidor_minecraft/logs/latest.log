@@ -30,3 +30,13 @@ java.lang.IllegalStateException: Must be 64 pixels wide
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
 [03:09:51] [Server thread/INFO]: marmotamafiosa[/127.27.51.197:42307] logged in with entity id 48 at (-170.13846300818517, 94.0, 148.18449704310027)
 [03:09:51] [Server thread/INFO]: marmotamafiosa joined the game
+[03:23:33] [Server thread/INFO]: [marmotamafiosa: Teleported marmotamafiosa to -683.500000, 93.970000, -1243.500000]
+[03:23:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7727ms or 154 ticks behind
+[03:23:46] [Server thread/INFO]: [marmotamafiosa: Set own game mode to Creative Mode]
+[03:24:45] [Server thread/INFO]: [marmotamafiosa: Set own game mode to Spectator Mode]
+[03:25:05] [Server thread/INFO]: marmotamafiosa has made the advancement [Eye Spy]
+[03:25:27] [Server thread/INFO]: [marmotamafiosa: Set own game mode to Creative Mode]
+[03:25:57] [Server thread/INFO]: [marmotamafiosa: Set own game mode to Spectator Mode]
+[03:26:38] [Server thread/INFO]: [marmotamafiosa: Set own game mode to Creative Mode]
+[03:28:33] [Server thread/INFO]: [marmotamafiosa: Teleported marmotamafiosa to 0.500000, -17.000000, -1239.164028]
+[03:28:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2373ms or 47 ticks behind
