@@ -25,3 +25,15 @@
 [05:13:29] [Server thread/INFO]: marmotamafiosa joined the game
 [05:22:10] [Server thread/INFO]: marmotamafiosa was killed
 [05:22:10] [Server thread/INFO]: [marmotamafiosa: Killed marmotamafiosa]
+[05:22:51] [Server thread/INFO]: marmotamafiosa has made the advancement [Monster Hunter]
+[05:23:07] [Server thread/INFO]: megaexfor8 lost connection: Timed out
+[05:23:07] [Server thread/INFO]: megaexfor8 left the game
+[05:23:07] [Server thread/WARN]: handleDisconnection() called twice
+[05:23:14] [Server thread/INFO]: megaexfor8[/127.68.88.48:55999] logged in with entity id 1484 at (-34.930759437573855, 173.0, 32.61825280283642)
+[05:23:14] [Server thread/INFO]: megaexfor8 joined the game
+[05:24:16] [Server thread/INFO]: [megaexfor8: Set own game mode to Survival Mode]
+[05:29:20] [Server thread/INFO]: [megaexfor8: Set own game mode to Creative Mode]
+[05:29:44] [Server thread/INFO]: [marmotamafiosa: Set own game mode to Survival Mode]
+[05:31:45] [Server thread/INFO]: [marmotamafiosa: Set own game mode to Creative Mode]
+[05:32:23] [Server thread/INFO]: megaexfor8 lost connection: Disconnected
+[05:32:23] [Server thread/INFO]: megaexfor8 left the game
