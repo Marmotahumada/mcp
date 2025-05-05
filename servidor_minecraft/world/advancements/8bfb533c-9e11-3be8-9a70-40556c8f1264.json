@@ -2417,15 +2417,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/eye_armor_trim_smithing_template_smithing_trim": {
+  "minecraft:story/follow_ender_eye": {
     "criteria": {
-      "has_smithing_trim_template": "2025-05-04 03:25:31 +0000"
+      "in_stronghold": "2025-05-04 03:25:05 +0000"
     },
     "done": true
   },
-  "minecraft:end/kill_dragon": {
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template_smithing_trim": {
     "criteria": {
-      "killed_dragon": "2025-05-04 04:03:49 +0000"
+      "has_smithing_trim_template": "2025-05-04 03:25:31 +0000"
     },
     "done": true
   },
@@ -2435,33 +2435,9 @@
     },
     "done": true
   },
-  "minecraft:end/find_end_city": {
-    "criteria": {
-      "in_city": "2025-05-04 04:05:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/enter_end_gateway": {
-    "criteria": {
-      "entered_end_gateway": "2025-05-04 04:04:37 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/follow_ender_eye": {
-    "criteria": {
-      "in_stronghold": "2025-05-04 03:25:05 +0000"
-    },
-    "done": true
-  },
   "minecraft:end/root": {
     "criteria": {
       "entered_end": "2025-05-04 03:43:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/totem_of_undying": {
-    "criteria": {
-      "used_totem": "2025-05-04 03:57:50 +0000"
     },
     "done": true
   },
@@ -2474,6 +2450,30 @@
   "minecraft:recipes/misc/mojang_banner_pattern": {
     "criteria": {
       "has_enchanted_golden_apple": "2025-05-04 03:47:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2025-05-04 03:57:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "killed_dragon": "2025-05-04 04:03:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2025-05-04 04:04:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2025-05-04 04:05:22 +0000"
     },
     "done": true
   },
