@@ -107,3 +107,12 @@ java.lang.IllegalStateException: Must be 64 pixels wide
 [03:35:13] [Server thread/WARN]: marmotamafiosa moved wrongly!
 [03:37:53] [Server thread/INFO]: megaexfor8 has made the advancement [Acquire Hardware]
 [03:41:11] [Server thread/INFO]: [marmotamafiosa: Teleported 2 entities to -88.500000, 69.000000, 136.500000]
+[03:59:59] [Server thread/INFO]: megaexfor8 has made the advancement [Take Aim]
+[04:02:23] [Server thread/INFO]: megaexfor8 was slain by marmotamafiosa
+[04:02:59] [Server thread/INFO]: Villager cmk['Leatherworker'/19473, l='ServerLevel[New World]', x=-143.33, y=65.56, z=-98.86] was struck by lightning btm['Lightning Bolt'/23754, l='ServerLevel[New World]', x=-143.50, y=64.00, z=-101.50].
+[04:02:59] [Server thread/INFO]: Villager cmk['Weaponsmith'/19520, l='ServerLevel[New World]', x=-144.77, y=65.56, z=-98.26] was struck by lightning btm['Lightning Bolt'/23754, l='ServerLevel[New World]', x=-143.50, y=64.00, z=-101.50].
+[04:03:28] [Server thread/INFO]: marmotamafiosa was doomed to fall by Zombie
+[04:03:44] [Server thread/INFO]: marmotamafiosa lost connection: Disconnected
+[04:03:44] [Server thread/INFO]: marmotamafiosa left the game
+[04:03:49] [Server thread/INFO]: megaexfor8 lost connection: Disconnected
+[04:03:49] [Server thread/INFO]: megaexfor8 left the game
