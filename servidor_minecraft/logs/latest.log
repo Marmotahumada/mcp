@@ -1,20 +1,117 @@
-[20:41:53] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
-[20:41:53] [main/WARN]: Mod resolution failed
-[20:41:53] [main/INFO]: Immediate reason: [HARD_DEP_NO_CANDIDATE architectury 13.0.5 {depends fabric-api @ [>=0.100.0]}, ROOT_FORCELOAD_SINGLE architectury 13.0.5]
-[20:41:53] [main/INFO]: Reason: [HARD_DEP architectury 13.0.5 {depends fabric-api @ [>=0.100.0]}, HARD_DEP jei 19.21.0.247 {depends fabric-api @ [>=0.102.0+1.21]}]
-[20:41:53] [main/INFO]: SERVER environment disabled: [sodium]
-[20:41:53] [main/INFO]: Fix: add [add:fabric-api 0.102.0+1.21 ([[0.102.0+1.21,∞)])], remove [], replace []
-[20:41:53] [main/ERROR]: Incompatible mods found!
-net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
-A potential solution has been determined, this may resolve your problem:
-	 - Install fabric-api, version 0.102.0+1.21 or later.
-More details:
-	 - Mod 'Architectury' (architectury) 13.0.5 requires version 0.100.0 or later of fabric-api, which is missing!
-	 - Mod 'Just Enough Items' (jei) 19.21.0.247 requires version 0.102.0+1.21 or later of fabric-api, which is missing!
-	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:196) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:146) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) [fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
+[21:51:30] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
+[21:51:31] [main/INFO]: Loading 49 mods:
+	- architectury 13.0.1
+	- fabric-api 0.102.0+1.21
+	   |-- fabric-api-base 0.4.42+6573ed8cd1
+	   |-- fabric-api-lookup-api-v1 1.6.68+b5597344d1
+	   |-- fabric-biome-api-v1 13.0.29+5bd9f1bcd1
+	   |-- fabric-block-api-v1 1.0.22+0af3f5a7d1
+	   |-- fabric-block-view-api-v2 1.0.10+6573ed8cd1
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a7d1
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8cd1
+	   |-- fabric-command-api-v1 1.2.49+f71b366fd1
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd9d1
+	   |-- fabric-commands-v0 0.2.66+df3654b3d1
+	   |-- fabric-content-registries-v0 8.0.16+b5597344d1
+	   |-- fabric-convention-tags-v1 2.0.19+7f945d5bd1
+	   |-- fabric-convention-tags-v2 2.5.0+c5e2b5c6d1
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a7d1
+	   |-- fabric-data-attachment-api-v1 1.1.27+6a6dfa19d1
+	   |-- fabric-data-generation-api-v1 20.2.16+16c4ae25d1
+	   |-- fabric-dimensions-v1 4.0.0+6fc22b99d1
+	   |-- fabric-entity-events-v1 1.6.12+6fc22b99d1
+	   |-- fabric-events-interaction-v0 0.7.12+ba9dae06d1
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd9d1
+	   |-- fabric-item-api-v1 11.0.0+afdfc921d1
+	   |-- fabric-item-group-api-v1 4.1.4+78017270d1
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a7d1
+	   |-- fabric-keybindings-v0 0.2.45+df3654b3d1
+	   |-- fabric-lifecycle-events-v1 2.3.12+6c1df360d1
+	   |-- fabric-loot-api-v2 3.0.14+3f89f5a5d1
+	   |-- fabric-loot-api-v3 1.0.2+3f89f5a5d1
+	   |-- fabric-message-api-v1 6.0.13+6573ed8cd1
+	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6bd1
+	   |-- fabric-networking-api-v1 4.2.2+60c3209bd1
+	   |-- fabric-object-builder-api-v1 15.2.0+a551f7a4d1
+	   |-- fabric-particles-v1 4.0.2+6573ed8cd1
+	   |-- fabric-recipe-api-v1 5.0.12+65089712d1
+	   |-- fabric-registry-sync-v0 5.1.2+60c3209bd1
+	   |-- fabric-renderer-api-v1 3.4.0+c705a49cd1
+	   |-- fabric-renderer-indigo 1.7.0+c705a49cd1
+	   |-- fabric-renderer-registries-v1 3.2.68+df3654b3d1
+	   |-- fabric-rendering-data-attachment-v1 0.3.48+73761d2ed1
+	   |-- fabric-rendering-fluids-v1 3.1.6+b5597344d1
+	   |-- fabric-rendering-v0 1.1.71+df3654b3d1
+	   |-- fabric-rendering-v1 5.0.5+df16efd0d1
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b1d1
+	   |-- fabric-resource-loader-v0 1.3.0+56599129d1
+	   |-- fabric-screen-api-v1 2.0.24+b5597344d1
+	   |-- fabric-screen-handler-api-v1 1.3.86+b5597344d1
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8cd1
+	   |-- fabric-transfer-api-v1 5.1.16+3dccd343d1
+	   \-- fabric-transitive-access-wideners-v1 6.1.0+176f9036d1
+	- fabricloader 0.16.3
+	   \-- mixinextras 0.4.1
+	- java 21
+	- journeymap 1.21-6.0.0-beta.27
+	   |-- ar_com_hjg_pngj 2.1.0
+	   |-- commonnetworking 1.0.16-1.21
+	   \-- journeymap-api-fabric 2.0.0-1.21-SNAPSHOT
+	- minecraft 1.21
+	- rhino 2100.2.5-build.46
+	- storagedrawers 13.8.5
+	- worldedit 7.3.5+6880-8ba3d89
+[21:51:31] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/mcp/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[21:51:31] [main/INFO]: Compatibility level set to JAVA_16
+[21:51:31] [main/INFO]: Compatibility level set to JAVA_17
+[21:51:31] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:51:31] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:51:32] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[21:51:44] [main/INFO]: Initializing ServerSide Packet Registries
+[21:51:44] [main/INFO]: New compacting rule 4 minecraft:clay_ball = 1 minecraft:clay
+[21:51:44] [main/INFO]: New compacting rule 4 minecraft:snowball = 1 minecraft:snow_block
+[21:51:44] [main/INFO]: New compacting rule 4 minecraft:glowstone_dust = 1 minecraft:glowstone
+[21:51:44] [main/INFO]: New compacting rule 4 minecraft:brick = 1 minecraft:bricks
+[21:51:44] [main/INFO]: New compacting rule 4 minecraft:nether_brick = 1 minecraft:nether_bricks
+[21:51:44] [main/INFO]: New compacting rule 9 minecraft:nether_wart = 1 minecraft:nether_wart_block
+[21:51:44] [main/INFO]: New compacting rule 4 minecraft:quartz = 1 minecraft:quartz_block
+[21:51:44] [main/INFO]: New compacting rule 9 minecraft:melon_slice = 1 minecraft:melon
+[21:51:44] [main/INFO]: New compacting rule 4 minecraft:clay_ball = 1 minecraft:clay
+[21:51:44] [main/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@940bdd7]
+[21:51:44] [main/INFO]: WorldEdit for Fabric (version 7.3.5+6880-8ba3d89) is loaded
+[21:51:45] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:51:45] [main/INFO]: Found new data pack fabric, loading it automatically
+[21:51:45] [main/INFO]: Found new data pack fabric-convention-tags-v2, loading it automatically
+[21:51:45] [main/INFO]: Found new data pack storagedrawers, loading it automatically
+[21:51:47] [Worker-Main-1/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
+[21:51:48] [main/INFO]: Loaded 1408 recipes
+[21:51:48] [main/INFO]: Loaded 1451 advancements
+[21:51:49] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 4.270 ms
+[21:51:49] [Server thread/INFO]: Starting minecraft server version 1.21
+[21:51:49] [Server thread/INFO]: Loading properties
+[21:51:49] [Server thread/INFO]: Default game type: SURVIVAL
+[21:51:49] [Server thread/INFO]: Generating keypair
+[21:51:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:51:49] [Server thread/INFO]: Using epoll channel type
+[21:51:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:51:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:51:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:51:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:51:49] [Server thread/INFO]: Preparing level "world"
+[21:51:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:51:50] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:51:50] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:51:51] [Server thread/INFO]: Time elapsed: 991 ms
+[21:51:51] [Server thread/INFO]: Done (1.312s)! For help, type "help"
+[21:51:51] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[21:51:51] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@16e94677 for service interface journeymap.api.services.ClientPlatformService
+[21:51:51] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@74584467 for service interface journeymap.api.services.CommonPlatformService
+[21:51:51] [Server thread/INFO]: global (FirstLoaded) Setting config file to version "6.0.0-beta.27": journeymap.server.global.config
+[21:51:51] [Server thread/INFO]: global (Valid) Creating config file: journeymap/server/6.0/journeymap.server.global.config
+[21:51:51] [Server thread/INFO]: default (FirstLoaded) Setting config file to version "6.0.0-beta.27": journeymap.server.default.config
+[21:51:51] [Server thread/INFO]: default (Valid) Creating config file: journeymap/server/6.0/journeymap.server.default.config
+[21:51:51] [Server thread/INFO]: minecraft~overworld (Valid) Creating config file: journeymap/server/6.0/journeymap.server.minecraft~overworld.config
+[21:51:51] [Server thread/INFO]: minecraft~the_end (Valid) Creating config file: journeymap/server/6.0/journeymap.server.minecraft~the_end.config
+[21:51:51] [Server thread/INFO]: minecraft~the_nether (Valid) Creating config file: journeymap/server/6.0/journeymap.server.minecraft~the_nether.config
+[21:55:31] [Server thread/INFO]: marmotamafiosa[/127.27.51.197:57947] logged in with entity id 22 at (54.8489825385933, 174.0, 211.57753785036527)
+[21:55:31] [Server thread/INFO]: marmotamafiosa joined the game
