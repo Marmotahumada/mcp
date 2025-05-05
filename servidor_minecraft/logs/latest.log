@@ -1,52 +1,20 @@
-[20:20:33] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
-[20:20:33] [main/INFO]: Loading 10 mods:
-	- fabricloader 0.16.3
-	   \-- mixinextras 0.4.1
-	- java 21
-	- minecraft 1.21
-	- worldedit 7.3.5+6880-8ba3d89
-	   |-- fabric-api-base 0.4.42+6573ed8cd1
-	   |-- fabric-command-api-v2 2.2.27+6a6dfa19d1
-	   |-- fabric-events-interaction-v0 0.7.10+e633f883d1
-	   |-- fabric-lifecycle-events-v1 2.3.11+8f3583aed1
-	   \-- fabric-networking-api-v1 4.2.0+ab7edbacd1
-[20:20:33] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/mcp/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[20:20:33] [main/INFO]: Compatibility level set to JAVA_17
-[20:20:35] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[20:20:44] [main/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@21db04b1]
-[20:20:44] [main/INFO]: WorldEdit for Fabric (version 7.3.5+6880-8ba3d89) is loaded
-[20:20:44] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:20:47] [Worker-Main-1/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
-[20:20:47] [main/INFO]: Loaded 1290 recipes
-[20:20:48] [main/INFO]: Loaded 1399 advancements
-[20:20:49] [Server thread/INFO]: Starting minecraft server version 1.21
-[20:20:49] [Server thread/INFO]: Loading properties
-[20:20:49] [Server thread/INFO]: Default game type: SURVIVAL
-[20:20:49] [Server thread/INFO]: Generating keypair
-[20:20:49] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:20:49] [Server thread/INFO]: Using epoll channel type
-[20:20:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:20:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:20:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:20:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:20:49] [Server thread/INFO]: Preparing level "world"
-[20:20:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:20:50] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:20:50] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:20:51] [Server thread/INFO]: Time elapsed: 985 ms
-[20:20:51] [Server thread/INFO]: Done (1.322s)! For help, type "help"
-[20:23:52] [Server thread/INFO]: marmotamafiosa[/127.27.51.197:44803] logged in with entity id 3 at (-365.43700070677465, 173.0, 106.62343429256475)
-[20:23:52] [Server thread/INFO]: marmotamafiosa joined the game
-[20:39:02] [Server thread/INFO]: marmotamafiosa lost connection: Disconnected
-[20:39:02] [Server thread/INFO]: marmotamafiosa left the game
-[20:39:41] [Server thread/INFO]: Stopping the server
-[20:39:41] [Server thread/INFO]: Stopping server
-[20:39:41] [Server thread/INFO]: Saving players
-[20:39:41] [Server thread/INFO]: Saving worlds
-[20:39:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:overworld
-[20:39:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_nether
-[20:39:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_end
-[20:39:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:39:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:39:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:39:41] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:41:53] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
+[20:41:53] [main/WARN]: Mod resolution failed
+[20:41:53] [main/INFO]: Immediate reason: [HARD_DEP_NO_CANDIDATE architectury 13.0.5 {depends fabric-api @ [>=0.100.0]}, ROOT_FORCELOAD_SINGLE architectury 13.0.5]
+[20:41:53] [main/INFO]: Reason: [HARD_DEP architectury 13.0.5 {depends fabric-api @ [>=0.100.0]}, HARD_DEP jei 19.21.0.247 {depends fabric-api @ [>=0.102.0+1.21]}]
+[20:41:53] [main/INFO]: SERVER environment disabled: [sodium]
+[20:41:53] [main/INFO]: Fix: add [add:fabric-api 0.102.0+1.21 ([[0.102.0+1.21,∞)])], remove [], replace []
+[20:41:53] [main/ERROR]: Incompatible mods found!
+net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
+A potential solution has been determined, this may resolve your problem:
+	 - Install fabric-api, version 0.102.0+1.21 or later.
+More details:
+	 - Mod 'Architectury' (architectury) 13.0.5 requires version 0.100.0 or later of fabric-api, which is missing!
+	 - Mod 'Just Enough Items' (jei) 19.21.0.247 requires version 0.102.0+1.21 or later of fabric-api, which is missing!
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:196) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:146) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) [fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
